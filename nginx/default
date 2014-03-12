@@ -1,0 +1,4 @@
+server {
+	root /var/www;
+	include include.d/http;
+}
