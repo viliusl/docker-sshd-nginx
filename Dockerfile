@@ -1,6 +1,6 @@
 FROM ubuntu:precise
 
-MAINTAINER Vilius Lukosius <vilius.lukosius@teliasonera.com>
+MAINTAINER Vilius Lukosius <vilius.lukosius@gmail.com>
 
 # make sure the package repository is up to date
 RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
