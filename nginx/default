@@ -1,4 +1,8 @@
 server {
-	root /var/www;
-	include include.d/http;
+	listen 80 default;
+
+	location / {
+		root /var/www;
+		index index.html;
+	}
 }

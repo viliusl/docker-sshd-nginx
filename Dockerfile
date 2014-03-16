@@ -23,7 +23,6 @@ RUN rm /tmp/id_rsa_docker.pub
 # configure nginx to serve static page
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 RUN mkdir -p /var/www
-ADD nginx/include.d         /etc/nginx/include.d
 ADD nginx/default           /etc/nginx/sites-available/default
 ADD nginx/index.html        /var/www/index.html
 
